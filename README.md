@@ -37,7 +37,7 @@ El crecimiento exponencial en el uso de teléfonos inteligentes ha impulsado las
 
 ```
 nutri-app/
-├── app/                                # Frontend Móvil (React Native / Expo SDK 57)
+├── app/                                # Frontend Móvil (React Native / Expo SDK 58)
 │   ├── App.js                          # Navegación principal, sesión y layout seguro Android/Web
 │   ├── app.json                        # Configuración de Expo / Android APK & AAB
 │   └── src/
@@ -60,7 +60,7 @@ nutri-app/
 ```
 
 ### Tecnologías Utilizadas
-- **Frontend (Cliente Móvil):** React Native (`0.86.3`) + Expo (`~57.0.30`), optimizado para Android y Web.
+- **Frontend (Cliente Móvil):** React Native (`0.88.1`) + React (`19.3.0`) + Expo SDK v58 (`^58.0.0`), compatible con Expo Go v58 en Android y Web.
 - **Backend (Servidor y Lógica de Negocio):** Python 3 + FastAPI + SQLAlchemy + Autenticación JWT (`python-jose`, `bcrypt`).
 - **Base de Datos:** SQLite (`nutri_app.db`) para almacenamiento estructurado de usuarios, perfiles, comidas y pesajes.
 - **Capa de IA / Agentes:** Asistente nutricional contextual para equivalencias de alimentos y ajuste dinámico de macros.
